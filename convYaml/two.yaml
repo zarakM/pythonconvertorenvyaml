@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: two
+  namespace: application
+data:
+  DB_HOST: prod-db.myhost.com
+  DB_PORT: '3306'
+  DB_NAME: prod_sample_db
+  DB_USER: prod_user
+  DB_PASSWORD: prod_password
+  APP_ENV: production
+  APP_DEBUG: 'false'
+  APP_SECRET_KEY: prod_secret_key
