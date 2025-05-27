@@ -5,8 +5,8 @@ import shutil
 def convert_yaml_to_env():
     # Set up paths to match your structure
     root_dir = pathlib.Path(__file__).parent
-    yaml_files_dir = root_dir / "yamlFiles"  # Lowercase to match your image
-    output_env_dir = root_dir / "ConvertedEnv"  # Capitalized to match your image
+    yaml_files_dir = root_dir / "baseYaml"  # Lowercase to match your image
+    output_env_dir = root_dir / "convEnv"  # Capitalized to match your image
 
     # Clear existing output directory and recreate
     shutil.rmtree(output_env_dir, ignore_errors=True)
