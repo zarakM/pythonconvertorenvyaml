@@ -4,17 +4,17 @@ A simple Python tool that helps convert `.env` files to `.yaml` and vice versa. 
 
 ## 🚀 Features
 
-- Convert `.env` to `.yaml`
-- Convert `.yaml` to `.env`
-- Easy command-line interface
-- Lightweight and fast
+✅ Convert all files in baseEnv to .yaml files in convYaml directory.
+
+✅ Convert all files in baseYaml to .yaml files in convEnv directory.
+
+✅ CLI interface for quick integration into pipelines
 
 ## 📦 Installation
 
 ```bash
 git clone https://github.com/zarakM/pythonconvertorenvyaml.git
 cd pythonconvertorenvyaml
-pip install -r requirements.txt
 ```
 
 ## 🛠 Usage
@@ -35,7 +35,7 @@ python main.py --yaml-to-env input.yaml output.env
 
 ## 🌍 Why This Tool?
 
-Working with multiple environments (dev, staging, production) often means juggling different config formats. This tool ensures smooth, consistent conversions to support better automation and fewer errors in deployment.
+Working with environments where developers are commiting in env format. This tool ensures smooth, consistent conversions to support better automation and fewer errors in deployment.
 
 ## 🤝 Contributing
 
