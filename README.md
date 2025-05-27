@@ -22,16 +22,14 @@ cd pythonconvertorenvyaml
 ### Convert `.env` to `.yaml`
 
 ```bash
-python main.py --env-to-yaml input.env output.yaml
+python envConvYaml.py
 ```
 
 ### Convert `.yaml` to `.env`
 
 ```bash
-python main.py --yaml-to-env input.yaml output.env
+python yamlConvEnv.py
 ```
-
-> Make sure to replace `main.py` with the actual filename if it's different.
 
 ## 🌍 Why This Tool?
 
